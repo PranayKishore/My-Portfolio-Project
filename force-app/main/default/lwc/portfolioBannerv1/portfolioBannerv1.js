@@ -7,7 +7,7 @@ import CURRENT_LOCATION from '@salesforce/schema/Portfolio__c.Current_Location__
 export default class PortfolioBanner extends LightningElement {
 
 @api recordId //= 'a02ao000000qb0HAAQ'    
-@api Linkedinurl = `https://www.linkedin.com/in/pranay-kishore-sf/`
+@api Linkedinurl = `https://www.linkedin.com/in/pranay-kishore-sf/`     // Linkedin URL
 @api youtubeurl //= `https://www.youtube.com/channel/UC7iElxgiGA1GzyJ8L3B6V0A`
 @api trailheadurl //= `https://www.salesforce.com/trailblazer/pranaykishore`
 @api giturl //= `https://github.com/PranayKishore`
