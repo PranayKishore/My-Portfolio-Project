@@ -1,0 +1,24 @@
+.Banner{
+    background: #f6c403;
+    text-align: center;
+    min-height: 300px;
+    padding: 32px 16px;
+}
+.profile-pic{
+    border-radius: 50%;
+    height: 160px;
+    width: 160px;
+    }
+.name{
+    font-size: 32px;
+    font-weight: 600;
+}
+.headline, .location{
+    font-size: 20px;
+    color: #243763;
+}
+.social-icon{
+    height: 40px;
+    width: 40px;
+    margin: 16px 16px 0px 0px;
+}

@@ -1,0 +1,34 @@
+<template>
+    <div class="Banner">
+      <img src={userPic} class="profile-pic"/>
+      <div class="name">{fullName}</div>
+      <div class="headline">{header}</div>
+      <div class="location">{currentLocation}</div>
+  
+      <div>
+        
+          <a href={Linkedinurl} target="_blank">
+            <img src={linkedin} class="social-icon"/>
+          </a>
+             
+        <template if:true={trailheadurl}>
+          <a href={trailheadurl} target="_blank">
+            <img src={trailhead} class="social-icon"/>
+          </a>
+        </template>  
+        
+        <template if:true={youtubeurl}>
+          <a href={youtubeurl} target="_blank">
+            <img src={youtube} class="social-icon"/>
+          </a>
+        </template>
+        
+        <template if:true={giturl}>
+          <a href={giturl} target="_blank">
+            <img src={git} class="social-icon"/>
+          </a>
+        </template>
+  
+      </div>
+    </div>
+  </template>
